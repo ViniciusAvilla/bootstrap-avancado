@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOTSTRAP AVANCADO</title>
+    <link rel="stylesheet" href="lib/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_css_bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+    
+<body>
+    <nav class="navbar col-12  position-fixed navbar-expand-lg navbar-dark bg-dark" style="z-index: 999;">
+    <div class="container-fluidcol-11 m-auto">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Menu
+                </a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Home</a></li>
+                <li><a class="dropdown-item" href="#">Carros em destaque</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Fale conosco</a></li>
+            </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true"></a>
+            </li>
+            </ul>
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/car-1957037_1280.jpg" class="d-block w-100" alt="carro-carrosel">
+          </div>
+          <div class="carousel-item">
+            <img src="img/car-63930_1280.jpg" class="d-block w-100" alt="carro-carrosel">
+          </div>
+          <div class="carousel-item">
+            <img src="img/ford-2705402_1280.jpg" class="d-block w-100" alt="carro-carrosel">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <div class="card-group col-11 m-auto">
+        <div class="card">
+          <img src="img/car-1957037_1280.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/oldtimer-4097480_1280.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/ford-2705402_1280.jpg" class="card-img-top" >
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+    </div>
+
+    <div class="col-11 m-auto">
+        <h2 class="text-center">Melhor loja de carros da internet!</h2>
+        <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut, vitae deleniti. Ipsum perferendis porro adipisci alias iste numquam a debitis repudiandae laboriosam aliquam possimus distinctio magni earum blanditiis, aperiam delectus.
+        Quis perferendis assumenda dolore inventore tenetur a corporis ipsam totam doloremque, cupiditate necessitatibus ducimus veritatis et illo quos, eum labore vitae dolorum! Exercitationem assumenda perferendis adipisci? Reiciendis repellat ullam minima.
+        Cupiditate rerum omnis impedit sed inventore qui tempora consectetur, esse, recusandae aliquam praesentium facere nobis perspiciatis ea iste hic mollitia nemo! Eum officiis perspiciatis inventore expedita aperiam quo cumque magni?
+        Ipsam veritatis tenetur sint eum provident porro beatae in quam corrupti facilis, cupiditate nemo doloremque earum, natus possimus nobis rem repudiandae numquam asperiores minima alias reiciendis, quia inventore quae! Modi.
+        Magni perferendis placeat atque officiis quas deleniti, incidunt quo consequuntur sed ipsam alias, possimus consequatur perspiciatis doloribus. Facilis non aut sapiente vel rerum accusantium ullam laboriosam autem inventore. Veniam, doloremque!</p>
+    </div>
+    
+    <section id="sec-catalogo">
+        <h2 class="text-center">Confira nosso catalogo completo</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="img/ferrari-3090880_1280.jpg">
+                    <h5>Ferrari</h5>
+                    <p>A Ferrari é uma prestigiada fabricante italiana de carros esportivos e de luxo, fundada por Enzo Ferrari em 1939. A marca é amplamente conhecida por seus veículos de alta performance, design sofisticado e participação bem-sucedida no automobilismo.</p>
+                </div>
+    
+            <div class="col">
+                <img src="img/ferrari-458-spider-2932191_1280.jpg">
+                <h5>Ferrari 458 Spider</h5>
+                <p>
+                    A Ferrari 458 Spider é um conversível de alto desempenho, com motor V8, design elegante e tecnologias avançadas, oferecendo emoção pura.</p>
+            </div>
+    
+            <div class="col">
+                <img src="img/lamborghini-2137815_1280.jpg">
+                <h5>Lamborghini</h5>
+                <p>
+                    A Lamborghini é uma marca italiana de carros esportivos de luxo, conhecida por seu design arrojado, motores potentes e desempenho excepcional em estrada e pista.</p> 
+                
+            </div>
+    
+      <script src="lib/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_js_bootstrap.bundle.min.js"></script>
+</body>
+</html>

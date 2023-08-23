@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.carrosel {
+    width: 100%;
+}
+
+
+#sec-catalogo img {
+    width: 380px;
+    height: 220px;
+
+}
